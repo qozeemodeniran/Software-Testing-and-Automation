@@ -1,0 +1,4 @@
+WHY AND HOW WE TEST 
+
+software testing is a defect detectetion technoque that can check the whole system: compiler, processor, devices, network, linker, loader etc.
+
