@@ -2,3 +2,23 @@ WHY AND HOW WE TEST
 
 software testing is a defect detectetion technoque that can check the whole system: compiler, processor, devices, network, linker, loader etc.
 
+Why is coverage testing can lead to more rigorous test suites than just writing tests for common scenarios? - Coverage testing is a technique that measures the percentage of code that is executed by a test suite. The goal of coverage testing is to ensure that all parts of the code are executed by the test suite, which can lead to a more rigorous test suite than just writing tests for common scenarios.
+
+When developers write tests for common scenarios, they typically focus on the most likely paths through the code. This can lead to overlooking less common paths that may still be important for ensuring the correctness and reliability of the code.
+
+Coverage testing, on the other hand, requires that all parts of the code are executed by the test suite. This means that developers are forced to consider and test all possible paths through the code, including those that may be less likely to occur. As a result, coverage testing can reveal edge cases and unexpected behavior that may not be uncovered by tests for common scenarios alone.
+
+By identifying and testing all possible paths through the code, coverage testing can help developers create more robust and reliable software. It can also help identify areas of the code that are not being tested, allowing developers to create new tests to cover those areas and improve the overall quality of the test suite.
+-----------------------------------------------------------------
+
+Do you think test-driven development is a good idea?  What might be a benefit of this approach?  What might be a drawback? - Test-driven development is a software development approach that involves writing tests before writing code. The process begins with writing a failing test case, then writing the code that makes the test pass, and finally refactoring the code to improve its quality.
+
+One benefit of test-driven development is that it can lead to higher-quality code. Because tests are written before code is written, developers are forced to think about the requirements of the code before implementing it. This can help ensure that the code meets the requirements and that it is thoroughly tested. Additionally, the tests themselves can serve as documentation, making it easier for other developers to understand and modify the code.
+
+Another benefit of test-driven development is that it can help catch bugs earlier in the development process. Because tests are run frequently during development, bugs are often caught and fixed before they can cause problems later in the development cycle.
+
+One potential drawback of test-driven development is that it can be time-consuming. Writing tests before writing code can slow down the development process, especially for complex systems. Additionally, writing tests for every possible scenario can be difficult and may not be practical for all projects.
+
+Another potential drawback of test-driven development is that it can lead to over-engineering. Developers may be tempted to write more complex code than necessary in order to make all the tests pass, which can lead to unnecessary complexity and decreased maintainability.
+
+Overall, whether test-driven development is a good idea depends on the specific project and development team. While it can lead to higher-quality code and catch bugs earlier in the development process, it can also be time-consuming and may not be practical for all projects
