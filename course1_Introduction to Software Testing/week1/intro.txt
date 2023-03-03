@@ -1,0 +1,18 @@
+To make sure that our software performs well, and as expected, we need to do two things:
+
+1. Verification - are we building the software right?
+2. Validation - are we building the right product?
+
+GOAL - Assure that software meets user's need.
+
+Getting software right - need to understand and validate the software requirement.
+
+why focus on software testing? - only defect detectetion technoque that can check the whole system. Best way to accurately assess some system behavior. Fore contract software, necessary to accept the system. Goood way of documenting expected system behavior.
+
+on the Optimistic - Typical testing
+on the Pessimistic - Simplistic program analysis
+
+- design & prototype: Validation
+- unit tests mapping requirements to class behaviors: Verification
+- user interviews: Validation
+- regression testing after refactoring: Verification
