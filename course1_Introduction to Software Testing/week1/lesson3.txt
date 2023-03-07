@@ -1,0 +1,7 @@
+what is a test? - 
+
+dissection the antomy of a test
+- setup
+- invocation
+- assessment
+- readown  
