@@ -1,1 +1,4 @@
 what is a test suite? -  
+writing junit tests - writing a test that ask user for an input (radius of a circle) and generating the circuference of that circle
+
+Automation - writing junit tests
