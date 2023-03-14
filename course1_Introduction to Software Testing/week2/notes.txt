@@ -1,0 +1,69 @@
+Reliability  - how logn can i run this wothout issue?
+A system can be safe and not Reliable.
+
+---Testing principles and Qualtiy process---
+principles->methods techniques->methodologies->tools
+
+---Testing principles: where---
+programmers tend to make similar mistakes.
+
+Error-prone aspects
+- floating point numbers
+- pointers
+- parallelism
+
+---Testing principles: how---
+It is not always possible to test the whole system at once.
+consider...Divisibilty - Divide and Conquer
+    - scope of test
+    - purpose of test
+    - Testing techniques
+
+Visibility 
+- Observability
+- State Exposure
+- Logging
+
+Repeatability - test should always pass or fail
+"Flakey Tests" - tests that sometimes fail.
+
+could be: bad test, bad program, bad environment
+
+Redundancy - most verification methods are unsound: they miss errors.
+Its is good to have "Defence in Depth"
+
+Feedbadk 
+- update test to thouroughly test areas known to be problematic
+- work with developer sti reduce systematic errors
+- lern which classes of bugs are most likely.
+
+---Testing Principles: Why?---
+The list of principles in this lesson does not contain a 'why' question.  Can you think of good principles for 'why'?  How would they influence your testing process?
+
+Here are some good principles for the "why" question that can influence the testing process:
+
+Understand the Purpose: Before testing, understand the purpose of the software and why it is being developed. This will help testers to identify potential risks and ensure that the software meets the business requirements.
+
+Prioritize Business Value: Testers should prioritize testing efforts based on the business value of the software. This means focusing on features that provide the most value to the customer or business.
+
+Continuous Improvement: The "why" question should be continuously asked throughout the testing process to ensure that the software is meeting the business needs and that any defects are being addressed.
+
+Risk-Based Testing: Testing should be focused on the areas of the software that pose the greatest risk to the business. This ensures that critical features are thoroughly tested, and that defects in those areas are identified and addressed.
+
+Test for Real-World Scenarios: Testers should test the software in real-world scenarios to ensure that it meets the needs of end-users. This means testing the software in different environments, with different user roles, and with varying data inputs.
+
+These principles for "why" can influence the testing process by ensuring that the testing efforts are aligned with the business objectives, and that the software is meeting the needs of end-users. By asking "why" questions, testers can gain a better understanding of the software and its purpose, which can help them identify potential risks and prioritize testing efforts accordingly.
+
+
+---Testing: Commonality vs. Specificity---
+We state that programmers tend to make similar classes of mistakes.  We also state that feedback is important because different kinds of applications tend to contain different kinds of errors.  Are these statements in conflict?  How might both be true?
+
+These statements are not necessarily in conflict with each other.
+
+It is true that programmers tend to make similar classes of mistakes, such as off-by-one errors, null pointer exceptions, and race conditions. This is because these types of errors are common and can easily occur during the software development process, regardless of the specific application being developed.
+
+However, it is also true that different kinds of applications tend to contain different kinds of errors. For example, a financial application may have errors related to complex calculations or data validation, while a video game may have errors related to graphics rendering or player movement.
+
+Feedback is important in identifying and addressing these different kinds of errors. By receiving feedback from users or through testing, developers can better understand the specific types of errors that are occurring in their application and take steps to fix them.
+
+Therefore, while programmers may make similar classes of mistakes, the specific kinds of errors that occur in different applications can vary widely. Feedback is important for identifying these differences and ensuring that the application is meeting the specific needs and requirements of its users.
