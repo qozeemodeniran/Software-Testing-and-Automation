@@ -1,0 +1,17 @@
+---Structural Testing---: one form of white box testing
+- Black Box Vs White Box: 
+    - Black box: focus primarily on ensuring that software behaves as we want or expected without having a knowledge of the code internal structure. 
+    - White box: does take into account the structure of the code. code review, inspection, peer programming can all be considered white-box testing.
+
+--Code Coverage Standards--
+- Statement - requires that every line of code be executed at least once.
+- condition 
+- decision 
+- branch
+condition/decision
+modified condition/decision
+observable modified condition/decision
+
+---Mutation Testing--- 
+is one approach we can use to measure the adequacy of a certain test.
+ 

@@ -1,0 +1,15 @@
+---The V-model of Software Development---
+Requirement - what the system is intended to do
+Validation - making sure the system does what's intended
+Specification - what system would do to meet requirements
+Verification - confirmation that system performs and conforms to its specification
+Architecture - includes decision whether or not to buy the product (should we build or buy?)
+System int testing - evaluates how various components of the system are gonna work together.
+Design - organising the modules and class desgins to work on.
+Module Testing - how we test design module func befoe including in the larger components or subsystems
+Implementation - actual coding of the solution.
+Unit test - 
+
+---Validation and Verification in the V-model---
+ Validation - all about users perspective
+ Verification - meeting some standards
