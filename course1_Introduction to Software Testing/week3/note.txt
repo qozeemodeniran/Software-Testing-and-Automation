@@ -1,0 +1,41 @@
+---Testing in the Software Development Lifecycle---
+
+--Lesson1--
+Fundamental testing Process
+What is Testing Plan? -  document describing scope, approach, resources and schedule of intended testing activities.
+
+Components of a test Plan
+* Testing approach/strategy
+* Scope
+* Schedule 
+* Resources/Test environment
+* Entry and Exit criteria
+* Requirements matrix (for traceability)
+* What is NOT tested
+* Test cases and scripts [separate document(s)]
+
+Test plan activities
+- use test plan template or design on
+- list what cannot be tested
+- write only what is needed
+- review the test plan
+- make it a 'living' document
+
+
+---Importance of a good test plan---
+
+why we need good test plan
+- organize, shcedule, and manage testing effort
+- helps in writing test cases
+- improves communiation between devs and management.
+- measuring software quality is the intent
+- developing good test sets takes planning
+- knowing when to stop
+- more effective arguments when you have facts. 
+
+Test planning is important
+- creating a plan and sticking to it makes it easier
+- ensure everything is completed
+- know when to stop
+- have facts to bolster arguments
+- say NO to project release is you have to
