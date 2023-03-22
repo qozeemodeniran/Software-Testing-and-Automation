@@ -39,3 +39,94 @@ Test planning is important
 - know when to stop
 - have facts to bolster arguments
 - say NO to project release is you have to
+
+Stages fo Software Testing Process
+1. Unit test: done by developers. it's a whiteboard testing at its core. it involves testing for loop boundaries for off-by errors, excercising arrays and their bounds.
+--Unit Test Plan: 
+
+2. Design Ver. testing - 
+    * Integration test - done by devs. makes sure every module that's been unit-tested works well together.
+    * Functional test - done by test-group. involves debugging test casees at the same time final design is being implemented. It is the largest segment og testing.
+
+3. System Vel. testing - test area test done once the full system is completed.
+    * System test - testing with expected behavior
+    * non-functional test - quality with which behavior is delivered(e.g usability, security, performance, protability, scalability etc)
+    * Test report
+
+4. Customer Acceptance testing - written by test-group with CX input but ofter performed by few personalities.
+
+Test Status Report
+- what you send during the testing process.
+--How the test cycle is going
+--occurs after each testing cycle
+
+Test Report
+- How entire testing effort went for a project
+- occurs at the end of testing
+
+Test (Status) resport Contents
+- evaluate how testin went/is going
+- list what is tested
+- list what's not tested, and why
+- list stil-open defects
+- show actual schedule
+- tell developers what works/doesn't
+
+Reasons for test (status) report
+- allows management and marketing to do their jobs
+- assist in process improvement
+
+Risk-based Test planning
+Importance
+- reduce risk 
+- determine the risk (main goal)
+
+Associated Definitions
+- Risk: potential loss
+- Components of risks: impact/loss and likelihood/protability
+- Risk analysis: determining the impact and likelihood of risks
+- Risk equation: risk=impact*likelihood
+- Risk appetite: amount of loss than management is willing to accept 
+- Risk mitigation: reducing risk
+
+Nature of risk
+- impact
+    -- depth
+        --severity of damage
+        --availability of likelihood
+
+    -- breadth
+        --number (of systems/people) affected
+        --cost of damage done
+
+    Categories of impact
+    - financial
+    - reputation
+    - licenses
+    - cx/user base
+    - employees
+    - lives
+
+- likelihood
+    - possible factors for likelihood of filure
+        -- size of module
+        -- use of new (unproven) technology
+        -- prior error history
+        -- lack of skill or experience
+        -- lack of motivation
+        -- inadequate proceses.
+        -- complex features or module
+        -- new modules
+        -- features transferred between devs
+        -- untested code.
+        -- features using large or distributed dev teams
+
+Rik mitigation
+- risk avoidance
+- risk transfer
+- risk management
+    -- loss prevention
+    -- crisis management
+    -- training
+
+ 
