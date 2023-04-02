@@ -1,0 +1,110 @@
+Software Defect Reports
+Purpose
+* to ensure reliable and fast elimination of failures detected by various test levels
+* a well-functioning procedure for communicating and managing those incident reports is also needed.
+
+SDR Process
+- Analyze: ensures proper prioritzion.
+    - find the root-cause
+    - determine if it is reproducible or repeatable
+    - attempt to isolate the Defect
+    - investigate alternative paths to the issue
+    - decide if it is worth reporting (formally)
+- Report
+    - ensure it is not duplicate
+    - talk witht he dev
+    - enter it into the system
+    - make sure it gets fixed.
+    * cahracteristics of an effective defect reporting
+        - numbered (or ID'd)
+        - simple
+        - written
+        - complete
+        - understandable
+        - explains the problem
+        - includes minimum number of steps to reproducible
+    * Report Content
+        - identifying information
+            . unique numer or id
+            . submitter
+            . submit date 
+            . program or product this is against
+            . version or revision of the product
+        - problem description
+            .  problem itself
+            . test case used.
+            . any useful info.
+            . avoid vagues or confusing terms
+            . avoid uncommon abbreviation.
+            . use standard terminology
+            . pay attention to spelling and grammar.
+        - status indicators
+            . overall report status
+                . open
+                . closed
+            . severity and priority.
+                . severity - how bad? genrally related to defect's effect on testing
+                    . high
+                    . medium
+                    . low
+                    .trivial
+                . priority - how urgent? when does this have be fixed.
+            . current resolution status.
+                * interim
+                    . none 
+                    . in process/assigned
+                    . fixed: pre-build
+                    . ready for test: post-build
+                    . retest
+                * final
+                    . not repeatable
+                    . not a problem
+                    . do not fix
+                    . duplicate
+                    . deffered
+        - comments
+            . analysis notes
+            . resolution notes
+            . tester notes
+            . modification notes
+            . verification notes
+            . whatever-works-for-you notes
+        - miscellaneous information
+            * steps to reproduce 
+                . include steup info
+                . anyone with appropriate setup should be able to reproduce the problem
+                . could be test-case id or lenghty procedure
+                . pay attention to problems that are merely repeatable and not reproducible.
+            * miscellaneous fields
+                . environment
+                . target release
+                . closed release
+                . closed date
+                . owner
+                . tester
+                . discovered by/in
+                . detect type/root-cause
+                . software component
+                . test hours
+                . workarounds
+        - supporting information
+            . error printouts
+            . screenshots
+            . test case itself
+            . flash drive with data or files.
+            . trace files, error logs, etc.
+
+- Track 
+    . have a process
+    . handled, primarily, by the defect review board
+    . include a tester (or all)
+    . ensure progress is made on defects
+- Retest
+    * outcomes
+        - problem has indeed been fixed.
+        - problem remains
+        - problem is replaced by a new problem
+- Close
+    . add test or verification notes
+    . make sure anyone else with a vested interest can also retest
+    . close it (or recommend closure)
