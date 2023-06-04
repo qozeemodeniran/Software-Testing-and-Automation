@@ -1,0 +1,13 @@
+---Test Doubles (input)---
+
+1. Dummy Objects - fill-in objects required by the system under test (SUT) that are otherwise irrelevant for the test.
+
+2. Test Stubs - provides dummy input data sources used by the SUT
+
+3. Fake Objects - lightweight implementations of heavyweight processes like db.
+
+4. Mock Objects - check indirect results produced by SUT -- somewhat Spy Objects
+
+So in summary, #1-#3 provides test inputs, while #4 monitors test ouputs
+
+---Test Doubles (outpt - Mocks and Spys)---
